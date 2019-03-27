@@ -1,8 +1,19 @@
 
 #inscri{
-    margin-left: 20px;
+    margin-left: 550px;
 }
-#inscri,#cnx,#area
+#cnx{
+    margin-left: 100px;
+}
+#area 
 {
-    margin-left: 50px;
+    border: 3px black double;
+    margin-top: 20px;
+    padding-left: 70px;
+    margin-left: 500px;
+   
+}
+#isg
+{ 
+    margin-left: 600px;
 }
