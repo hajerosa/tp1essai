@@ -69,4 +69,16 @@
 #ind
 {
   background-color: r
+
+}
+#round
+{ 
+    border-radius: 50%;
+    margin-left: 370px;
+}
+#tab
+{ 
+    margin-top: 20px;
+    margin-left: 250px;
+border: 1px grey double;
 }

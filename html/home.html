@@ -3,15 +3,22 @@
     <head>
         <meta charset="utf-8">
         <title>Home</title>
+        <link rel="stylesheet" href="../Css/style.css"/>
+        <link rel="stylesheet" href="../Css/bootstrap.min.css"/>
+
     </head>
     <body>
         
-        <img src="../images/logo.png" /><br>
-        <a href="connexion.html"><button>déconnexion</button></a> <br>
-        <a href="profil.html"><button>profil</button></a> <br>
-        <h2>TODO</h2>
-       <a href="Ajouttodo.html"><button>ajouter to Do</button></a><br>
-        <table border="1">
+        <img src="../images/logo.png" />
+        <a href="connexion.html"><button class="btn btn-outline-primary" >déconnexion</button></a> 
+        <a href="profil.html"><button class="btn btn-outline-primary">profil</button></a> <br>
+        
+        <div id="titre">
+                <h2>TODO</h2>
+            </div>
+       <a href="Ajouttodo.html"><button class="btn btn-outline-info" id="round">ajouter to Do</button></a><br>
+       
+        <table border="1" id="tab"> 
             <thead>
                 <tr>
                     <th>Descripton</th>
@@ -23,15 +30,15 @@
                     <tr>
                             <td>Compléter cours réseau,tla et graphe</td>
                             <td>25/03/2019</td>
-                            <td><button>Done</button></td>
+                            <td><button class="btn btn-outline-success">Done</button></td>
                         </tr> 
                         <tr>
                             <td>commencer projet java et web </td>
                             <td>27/03/2019</td>
-                            <td><button>Done</button></td>
+                            <td><button class="btn btn-outline-success">Done</button></td>
                         </tr> 
             </tbody>
         </table>
-
+        
      </body>
 </html>
