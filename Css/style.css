@@ -2,6 +2,11 @@
 #inscri{
     margin-left: 550px;
 }
+#background{
+    background-color: aqua;
+    position: sticky;
+    background-repeat: no-repeat;
+}
 #cnx{
     margin-left: 100px;
 }
